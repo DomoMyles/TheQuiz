@@ -1,0 +1,28 @@
+body {
+	font-family: sans-serif;
+	background-color: grey;
+  }
+  
+  header {
+	text-align: center;
+	padding: 20px;
+	padding-top: 0px;
+	color: hsl(206, 17%, 28%);
+  }
+  
+  /*buttons css code*/
+  .buttons{
+	margin: 10px;
+	size: 10%;
+	border: 10px;
+	background-color: #4CAF50;
+	color: white;
+	padding: 32px;
+	text-align: center;
+	display: inline-block;
+	font-size: 30px;
+	border-radius: 10px;
+	border-style: solid;
+	border: 10px;
+	border: black;
+  }
