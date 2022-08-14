@@ -90,4 +90,3 @@ function checkCorrect(event) {
 	place++
 	nextQuestion();
 }
-
