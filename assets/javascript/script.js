@@ -90,3 +90,8 @@ function checkCorrect(event) {
 	place++
 	nextQuestion();
 }
+
+
+function reset(){
+	window.location="/../.././"
+	}
