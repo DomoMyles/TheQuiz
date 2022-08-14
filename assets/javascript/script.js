@@ -93,5 +93,5 @@ function checkCorrect(event) {
 
 
 function reset(){
-	window.location="/../.././"
+	location.reload();
 	}
