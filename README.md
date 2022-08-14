@@ -2,4 +2,4 @@
  
 You will find the deployed link at file:///D:/Users/Myles/Desktop/The%20Quiz/index.html
 
-![Quiz Picture](/images/QuizPic.png)
+![Quiz Picture](/Pictures/QuizPic.JPG)
