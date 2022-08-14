@@ -1,0 +1,60 @@
+[33mcommit d796d9d8fec879b17f7de3629518870abe4d2d6f[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: DomoMyles <47869842+DomoMyles@users.noreply.github.com>
+Date:   Sat Aug 13 21:53:33 2022 -0400
+
+    first commit
+
+[1mdiff --git a/README.md b/README.md[m
+[1mindex 5ee22f9..0c5b28b 100644[m
+Binary files a/README.md and b/README.md differ
+[1mdiff --git a/assets/javascript/script.js b/assets/javascript/script.js[m
+[1mindex c642f0e..0ca75f8 100644[m
+[1m--- a/assets/javascript/script.js[m
+[1m+++ b/assets/javascript/script.js[m
+[36m@@ -89,5 +89,4 @@[m [mfunction checkCorrect(event) {[m
+ 	answers.innerHTML = ""[m
+ 	place++[m
+ 	nextQuestion();[m
+[31m-}[m
+[31m-[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+[1mdiff --git a/index.html b/index.html[m
+[1mindex c55e0d2..8937a49 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -6,23 +6,21 @@[m
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />[m
+   <meta http-equiv="X-UA-Compatible" content="ie=edge" />[m
+   <title>Password Generator</title>[m
+[31m-  <link rel="stylesheet" type="text/css" href="./assets/style/style.css"/>[m
+[31m-</head> [m
+[32m+[m[32m  <link rel="stylesheet" type="text/css" href="./assets/style/style.css" />[m
+[32m+[m[32m</head>[m
+ [m
+ <body>[m
+   <div>[m
+     <header>[m
+[31m-      <div class="buttons"> <!--place the start button-->[m
+[31m-        <button id="question" class = "buttons">Start</button>[m
+[31m-    </div>[m
+[31m-<!--Set the Questions and answers-->[m
+[31m-        <main>[m
+[31m-          <span class = "buttons" id = "Quests"></span> <br>[m
+[31m-          <span id = "Score"></span>[m
+[31m-          <div id = "answers"></div>[m
+[31m-          [m
+[31m-[m
+[31m-[m
+[32m+[m[32m      <div class="buttons">[m
+[32m+[m[32m        <!--place the start button-->[m
+[32m+[m[32m        <button id="question" class="buttons">Start</button>[m
+[32m+[m[32m      </div>[m
+[32m+[m[32m      <!--Set the Questions and answers-->[m
+[32m+[m[32m      <main>[m
+[32m+[m[32m        <span class="buttons" id="Quests"></span> <br>[m
+[32m+[m[32m        <span id="Score"></span>[m
+[32m+[m[32m        <div id="answers"></div>[m
+       </main>[m
+   </div>[m
+   <script src="assets/javascript/script.js"></script>[m
