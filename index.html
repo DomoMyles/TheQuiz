@@ -10,19 +10,43 @@
 </head>
 
 <body>
-  <div>
+  <main>
+    <section id="buton">
+      <!--Sets the Page Selectors on the top-->
+      <button id="scoreScreen" class="LS">View Scores</button>
+      <button id="quizScreen" class="LS">Quiz Screen</button>
+    </section>
     <header>
-      <div class="buttons">
-        <!--place the start button-->
-        <button id="question" class="buttons">Start</button>
-      </div>
-      <!--Set the Questions and answers-->
-      <main>
-        <span class="buttons" id="Quests"></span> <br>
-        <span id="Score"></span>
-        <div id="answers"></div>
-      </main>
-  </div>
+      <!--Sets the time-->
+      <div class = time id="time">time</div>
+
+      <!--THis is where the questions will appear-->
+      <span id="questions" class="headers">Questions</span> <br>
+
+      <!--THis is where the options will show up-->
+      <li class = "no" id="answers"></li>
+
+      <!--This is the Start Button-->
+      <ul id="Start" style = "display: inline" class = "start">Start</ul>
+
+      <!--This is where the leaderboard will show up-->
+      <ul class = "no" id = "Resulta" style = "display: none">Hereme
+      <li>HEre too</li></ul>
+
+        <!--This is the button to enter your scre into the local storage-->
+      <button id="userNamebtn" style ="display: none">Enter</button>
+
+      <!--This refreshed the list on the leaderboard-->
+      <button id = "refreshList" style = "display: none">Refresh</button>
+      <input type="text" height="50" id="userName" style = "display: none"> 
+      <div id="right">right</div>
+      <form id="parent">
+      <button id="clear">ClearLocalStorage</button>
+      <button id = "show">Refresh</button>
+      </form>
+    </header>
+  </main>
+
   <script src="assets/javascript/script.js"></script>
 </body>
 
