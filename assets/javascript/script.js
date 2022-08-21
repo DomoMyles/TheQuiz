@@ -131,6 +131,7 @@ function checkCorrect(event) {
 	nextQuestion();
 }
 
+<<<<<<< HEAD
 //set up score screen(LS = local storage)
 let LS = document.getElementById("scoreScreen")
 LS.addEventListener('click', event => {
@@ -286,3 +287,9 @@ function clear() {
 	console.log("wee")
 	console.log(buttonChange)
 }
+=======
+
+function reset(){
+	location.reload();
+	}
+>>>>>>> 4b32e015735ad3f9d0979eda5cc507c2fb924135
