@@ -14,10 +14,6 @@ body {
 	flex: auto;
   }
 
-  .question {
-	padding: 50px;
-	font-size: 45px;
-  }
   
   /*buttons css code*/
   .buttons{
@@ -82,4 +78,8 @@ body {
 
   .static{
 	position: absolute;
+  }
+
+  .no li{
+	border-radius: 10px;
   }
