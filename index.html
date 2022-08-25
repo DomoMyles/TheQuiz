@@ -13,56 +13,61 @@
   <main>
     <section id="buton">
       <!--Sets the Page Selectors on the top-->
-      <button id="scoreScreen" class="LS">View Scores</button>
-      <button id="quizScreen" class="LS">Quiz Screen</button>
+      <button id="scoreScreen" class="LS" onclick="scoreScreen()">View Scores</button>
+      <button id="quizScreen" class="LS" onclick="backQuiz()">Quiz Screen</button>
     </section>
     <header>
-<<<<<<< HEAD
       <!--Sets the time-->
-      <div class = time id="time">time</div>
+      <section class = "wrapper">
+      <div id="time" class="time">time</div>
 
       <!--THis is where the questions will appear-->
-      <span id="questions" class="headers">Questions</span> <br>
+      <span id="questions" class="headers">Questions</span> 
+      </section>
 
       <!--THis is where the options will show up-->
-      <li class = "no" id="answers"></li>
+      <div id="answers" class="no"></div>
 
       <!--This is the Start Button-->
-      <ul id="Start" style = "display: inline" class = "start">Start</ul>
+      <div id="Start" class="start">Start</div>
+
 
       <!--This is where the leaderboard will show up-->
-      <ul class = "no" id = "Resulta" style = "display: none">Hereme
-      <li>HEre too</li></ul>
+      <ul id="Resulta" class="SSlist">
+
+        <!--This is where the list items will be shwon-->
+        <li id="ul" class="SSlist"></li>
+
+      </ul>
+
+      <div id="Score" class="yScore"></div>
+
+
+      <!--Set buttons for scorescreen-->
+      <section id="SSbuttons" class="wrapper">
+
+        <!--bar wehre you input your name-->
+        <input id="inputBar" type="text" height="50" id="userName" class="inputbar">
 
         <!--This is the button to enter your scre into the local storage-->
-      <button id="userNamebtn" style ="display: none">Enter</button>
+        <button id="userNamebtn" class="enter" onclick="enter()">Show Scores</button>
 
+        <!--test buttoon-->
+        <button id="show" class="enter">reeman</button>
+      </section>
+      <button id="refreshList" onclick = "refreshList">Refresh</button>
+<hr>
       <!--This refreshed the list on the leaderboard-->
-      <button id = "refreshList" style = "display: none">Refresh</button>
-      <input type="text" height="50" id="userName" style = "display: none"> 
-      <div id="right">right</div>
+
+      <div id="right" class = "static">Correct/Wronge??</div>
       <form id="parent">
-      <button id="clear">ClearLocalStorage</button>
-      <button id = "show">Refresh</button>
+
+
       </form>
     </header>
   </main>
 
-=======
-      <div class="buttons">
-        <!--place the start button-->
-        <button id="question" class="buttons">Start</button>
-      </div>
-      <!--Set the Questions and answers-->
-      <main>
-        <span class="buttons" id="Quests"></span> <br>
-        <span id="Score"></span>
-        <div id="answers"></div>
-      </main>
-      <br><br>
-      <button class ="buttons" onclick="reset()"> Restart </button>
-  </div>
->>>>>>> 4b32e015735ad3f9d0979eda5cc507c2fb924135
+
   <script src="assets/javascript/script.js"></script>
 </body>
 
